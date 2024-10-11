@@ -21,7 +21,7 @@ DATABASE_URL =
     ? "./whatsasena.db"
     : process.env.DATABASE_URL
 DEBUG =
-  process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG)
+  process.env.DEBUG === undefined ? true : convertToBool(process.env.DEBUG)
 
 module.exports = {
   VERSION: "v1.2.8",
@@ -88,7 +88,7 @@ module.exports = {
     process.env.WARN_MSG === undefined ? "Ok bie" : process.env.WARN_MSG,
   ANTIJID: process.env.ANTIJID === undefined ? "" : process.env.ANTIJID,
   STICKER_PACKNAME:
-    process.env.STICKER_PACKNAME === undefined
+    process.env.STICKER_'twizzy' === undefined
       ? "🥰,lyfe00011"
       : process.env.STICKER_PACKNAME,
   BRAINSHOP:
@@ -96,7 +96,7 @@ module.exports = {
       ? "159501,6pq8dPiYt7PdqHz3"
       : process.env.BRAINSHOP,
   DIS_BOT:
-    process.env.DISABLE_BOT === undefined ? "null" : process.env.DISABLE_BOT,
+    process.env.DISABLE_BOT === undefined ? "null" : process.env.Anable_BOT,
   FIND_API_KEY:
     process.env.FIND_API_KEY === undefined
       ? "null"
